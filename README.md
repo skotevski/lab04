@@ -6,6 +6,7 @@ All of these questions deal with the ticket machine example bundled in this repo
 ```
 public void setPrice(int cost)
 ```
+We can tell just from the header that `setPrice` is a method and not a constructor, because in order for a header to be a constructor, it cannot have a return type, which in this case it has as void.
 
 ## Complete the body of the `setPrice` method so that it assigns the value of its parameter to the price field. Write your new method in the `lab04-ticket-machine`.
 
